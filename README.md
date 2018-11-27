@@ -1,3 +1,19 @@
+# Deep Fried Lexicon
+
+https://deep-fried.github.io/lexicon/
+
+## "What about the dropdown on this tab?"
+
+What someone usually meant by this was "What about the Nav Sub on this page?"
+
+To communicate more clearly, we developed a language of terms to describe digital components. We have included *unauthorized names* to serve as a reminder of what others might be communicating to our team.
+
+## Why?
+
+Our lexicon primarily serves ourselves, so that code written by one developer is instantly recognizable to another developer by name alone. Our broader goal aims to implement this lexicon with our entire organization and our clients.
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
