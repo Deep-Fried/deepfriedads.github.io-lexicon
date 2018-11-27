@@ -1,14 +1,14 @@
 {
-  "main.css": "/lexicon/static/css/main.3b7fb16e.chunk.css",
-  "main.js": "/lexicon/static/js/main.15c5a0e1.chunk.js",
-  "main.js.map": "/lexicon/static/js/main.15c5a0e1.chunk.js.map",
+  "main.css": "/lexicon/static/css/main.d4cc8e6d.chunk.css",
+  "main.js": "/lexicon/static/js/main.e833d628.chunk.js",
+  "main.js.map": "/lexicon/static/js/main.e833d628.chunk.js.map",
   "static/js/1.43a0ed9a.chunk.js": "/lexicon/static/js/1.43a0ed9a.chunk.js",
   "static/js/1.43a0ed9a.chunk.js.map": "/lexicon/static/js/1.43a0ed9a.chunk.js.map",
   "runtime~main.js": "/lexicon/static/js/runtime~main.11e021ed.js",
   "runtime~main.js.map": "/lexicon/static/js/runtime~main.11e021ed.js.map",
   "static/media/style.css": "/lexicon/static/media/caret.e143df2e.svg",
-  "static/css/main.3b7fb16e.chunk.css.map": "/lexicon/static/css/main.3b7fb16e.chunk.css.map",
+  "static/css/main.d4cc8e6d.chunk.css.map": "/lexicon/static/css/main.d4cc8e6d.chunk.css.map",
   "index.html": "/lexicon/index.html",
-  "precache-manifest.b9572ce1c60554f50011135c5d096d70.js": "/lexicon/precache-manifest.b9572ce1c60554f50011135c5d096d70.js",
+  "precache-manifest.3643cb5d63198b065362c04a288cf801.js": "/lexicon/precache-manifest.3643cb5d63198b065362c04a288cf801.js",
   "service-worker.js": "/lexicon/service-worker.js"
 }

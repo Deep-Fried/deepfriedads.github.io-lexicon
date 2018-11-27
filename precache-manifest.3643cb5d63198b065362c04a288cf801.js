@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/lexicon/static/js/runtime~main.11e021ed.js"
   },
   {
-    "revision": "15c5a0e18026385451b2",
-    "url": "/lexicon/static/js/main.15c5a0e1.chunk.js"
+    "revision": "e833d628fb3ba334949f",
+    "url": "/lexicon/static/js/main.e833d628.chunk.js"
   },
   {
     "revision": "43a0ed9aa7c9e925f0b5",
     "url": "/lexicon/static/js/1.43a0ed9a.chunk.js"
   },
   {
-    "revision": "15c5a0e18026385451b2",
-    "url": "/lexicon/static/css/main.3b7fb16e.chunk.css"
+    "revision": "e833d628fb3ba334949f",
+    "url": "/lexicon/static/css/main.d4cc8e6d.chunk.css"
   },
   {
-    "revision": "5e7da3a17380b918b29c2fc0733ca4d7",
+    "revision": "7a8ca367182be80090c735079b9cf033",
     "url": "/lexicon/index.html"
   }
 ];
