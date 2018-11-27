@@ -1,0 +1,13 @@
+:root {
+	--white: #fff;
+	--black: #000;
+	--black-alpha: rgba(0,0,0,.8);
+	--gray: #666;
+	--gray-dark: #222;
+	--gray-light: #e6e6e6;
+	--gray-lightest: #f6f6f6;
+	--red: #ff473b;
+	--red-dark: #ac291e;
+	--red-alpha: rgba(255,71,59,.93);
+	--red-alpha-light: rgba(255,71,59,.1);
+}

@@ -1,0 +1,27 @@
+.AppTagalong__item
+{
+	margin: .5em 0 0;
+	display: block;
+	color: var(--gray);
+}
+
+.AppTagalong__item.is-active
+{
+	border-bottom: 1px dotted;
+	color: var(--red);
+}
+
+.AppTagalong__item a
+{
+	padding: .25em 2em .25em .125em;
+	display: block;
+	font-size: .875em;
+	text-decoration: none;
+	line-height: 1.5;
+	color: inherit;
+}
+
+.AppTagalong__item a:hover
+{
+	color: var(--red);
+}

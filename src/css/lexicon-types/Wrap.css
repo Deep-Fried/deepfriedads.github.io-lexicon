@@ -1,0 +1,12 @@
+.Wrap
+{
+	padding: 3rem;
+	background-color: var(--red);
+}
+
+.Wrap .Container
+{
+	height: 5rem;
+	padding: 1rem;
+	background-color: var(--white);
+}

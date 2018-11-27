@@ -1,0 +1,46 @@
+.TagalongExample
+{
+	padding: 0;
+	display: flex;
+	border: 1px solid var(--gray-light);
+	height: 20em;
+}
+
+.TagalongExample__sidebar
+{
+	flex: 0 1 20%;
+	padding: 1.5em 0;
+	border-right: 1px solid var(--gray-light);
+}
+
+.TagalongExample__content
+{
+	margin-top: 0;
+	padding: 1.5em 2em 10em;
+	flex: 0 1 80%;
+	overflow-y: auto;
+}
+
+/* Tagalong */
+.Tagalong__item
+{
+	margin: 0;
+	display: block;
+}
+
+.Tagalong__item a
+{
+	display: block;
+	text-decoration: none;
+	padding: .125em 1.5em;
+	color: var(--gray);
+	font-size: .875em;
+	transition: background-color .3s ease, color .3s ease;
+}
+
+.Tagalong__item a:hover
+, .Tagalong__item.is-active a
+{
+	background-color: var(--red);
+	color: var(--white);
+}

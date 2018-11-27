@@ -1,0 +1,17 @@
+.Banner
+{
+	position: relative;
+}
+
+.Banner__content
+{
+	margin: auto;
+	padding: 1rem 3rem;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+}

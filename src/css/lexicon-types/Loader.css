@@ -1,0 +1,27 @@
+.Loader
+{
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+}
+
+.Loader__icon
+, .Loader__icon::after
+{
+	border-radius: 50%;
+	width: 4em;
+	height: 4em;
+}
+
+.Loader__icon
+{
+	position: relative;
+	text-indent: -9999em;
+	border-top: .5em solid currentColor;
+	border-right: .5em solid currentColor;
+	border-bottom: .5em solid currentColor;
+	border-left: .5em solid var(--red);
+	transform: translateZ( 0 );
+	color: var(--gray-light);
+	animation: fullRotate 1.25s infinite linear;
+}

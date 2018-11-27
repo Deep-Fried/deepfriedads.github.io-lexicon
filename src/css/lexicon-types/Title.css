@@ -1,0 +1,24 @@
+.TitleExample h1
+, .TitleExample h2
+, .TitleExample h3
+, .TitleExample h4
+, .TitleExample h5
+, .TitleExample h6
+{
+	font-size: 1em;
+	line-height: normal;
+}
+
+.TitleExample p:nth-of-type(n+2)
+{
+	margin-top: 2em;
+}
+
+.TitleExample .Title--1
+{
+	font-size: 1.5em;
+	font-weight: 700;
+	line-height: 1;
+	margin-top: 1rem;
+	color: var(--red);
+}

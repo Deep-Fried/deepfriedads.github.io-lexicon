@@ -1,0 +1,60 @@
+.TabGroup
+{
+	width: 100%;
+	display: flex;
+	border-bottom: 1px solid var(--gray-light);
+}
+
+.Tab
+{
+	margin: 0 0 -1px;
+	display: inline-block;
+	border: 1px solid transparent;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	transition: background-color .3s ease, border-color .3s ease, color .3s ease;
+}
+
+.Tab a
+{
+	padding: .5em 2em;
+	display: block;
+	text-decoration: none;
+	transition: color .3s ease;
+}
+
+.Tab:hover
+{
+	border-color: var(--gray-light);
+}
+
+.Tab.is-active
+, .Tab.is-active:hover
+{
+	border-color: var(--red);
+	background-color: var(--red);
+}
+
+.Tab.is-active > a
+{
+	color: var(--white);
+}
+
+.TabFolder
+{
+	margin-top: 0;
+	padding: 1rem;
+	border: 1px solid var(--gray-light);
+	border-top: 0;
+}
+
+.TabFolder__content
+{
+	margin-top: 0;
+	display: none;
+}
+
+.TabFolder__content.is-active
+{
+	display: block;
+}

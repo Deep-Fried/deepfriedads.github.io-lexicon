@@ -1,0 +1,62 @@
+#root
+{
+	margin-top: 0;
+}
+
+.App__header
+{
+	padding: 1.5em 1em;
+	background-color: var(--red);
+	color: white;
+}
+
+.Container
+{
+	max-width: 50em;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.Container--tagalong
+{
+	margin: 0;
+}
+
+/* Layout
+---------------------------------------------*/
+.Main
+{
+	margin-top: 0;
+	display: flex;
+}
+
+.Sidebar
+{
+	padding: 4em 0;
+	flex: 1 1 20%;
+	border-right: 1px solid var(--gray-light);
+}
+
+.AppTagalong
+{
+	padding: 0;
+}
+
+/* Typography
+---------------------------------------------*/
+.Title--1
+{
+	font-size: 2em;
+	line-height: 1;
+}
+
+.Title--2
+{
+	font-size: 1.25em;
+	line-height: 1.25;
+}
+
+.Title--6
+{
+	font-size: .875rem;
+}

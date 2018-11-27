@@ -1,0 +1,45 @@
+.Lexicon
+{
+	margin-top: 0;
+	flex: 1 1 80%;
+}
+
+.Lexicon__term
+{
+	max-width: 60em;
+	margin: 0 auto;
+	padding: 4em;
+	padding: 12vh 4em;
+	border-bottom: 1px solid #eee;
+}
+
+.Lexicon__term:first-child
+{
+	padding-top: 4em;
+}
+
+.BadgeContainer
+{
+	margin: 1em -.25rem 0;
+	display: flex;
+	opacity: .4;
+	transition: opacity .2s;
+}
+
+.BadgeContainer:hover,
+.BadgeContainer:focus
+{
+	opacity: 1;
+}
+
+.Badge,
+.BadgeContainer__title
+{
+	margin: .25rem;
+}
+
+.Lexicon__header .Badge
+{
+	display: inline-flex;
+	align-items: center;
+}

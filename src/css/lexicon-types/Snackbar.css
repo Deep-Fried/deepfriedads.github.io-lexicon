@@ -1,0 +1,28 @@
+.Snackbar
+{
+	width: 100%;
+	margin: 0;
+	padding: 1em;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+	text-align: center;
+	background-color: var(--red);
+	color: var(--white);
+	transform: translateY(-100%);
+	opacity: 0;
+	transition: opacity .2s ease, transform .2s ease, background-color .3s ease;
+	cursor: pointer;
+}
+
+.Snackbar:hover
+{
+	background-color: var(--gray-dark);
+}
+
+.Snackbar.is-active
+{
+	transform: translateY(0);
+	opacity: 1;
+}

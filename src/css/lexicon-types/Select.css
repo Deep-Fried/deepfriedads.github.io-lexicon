@@ -1,0 +1,24 @@
+.Select
+{
+	max-width: 16em;
+	padding: .325em 1em;
+	font-size: 1em;
+	border: 1px solid;
+	outline: none;
+	appearance: none;
+	background-image: url('../../images/caret.svg');
+	background-size: 12px 6px;
+	background-repeat: no-repeat;
+	background-position: right 12px center;
+	transition: background-color .25s ease;
+}
+
+.Select:hover
+{
+	background-color: var(--gray-light);
+}
+
+.Select:focus
+{
+	box-shadow: 0 0 3px var(--gray);
+}

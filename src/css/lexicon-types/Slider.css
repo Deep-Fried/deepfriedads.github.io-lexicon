@@ -1,0 +1,6 @@
+.Slider * + *
+, .bx-controls
+, .bx-controls * + *
+{
+	margin-top: 0;
+}

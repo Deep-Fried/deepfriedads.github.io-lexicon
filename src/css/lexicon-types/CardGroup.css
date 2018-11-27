@@ -1,0 +1,12 @@
+.CardGroup
+{
+	display: flex;
+	flex-wrap: nowrap;
+	flex: 1;
+	justify-content: space-between;
+}
+
+.CardGroup .Card
+{
+	margin-top: 0;
+}

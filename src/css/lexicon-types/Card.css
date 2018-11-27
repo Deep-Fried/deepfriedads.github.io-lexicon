@@ -1,0 +1,16 @@
+.Card
+{
+	width: 32%;
+	border: 1px solid var(--gray-light);
+}
+
+.Card__content
+{
+	margin-top: 0;
+	padding: 2em;
+}
+
+.Card__title
+{
+	font-weight: 700;
+}
