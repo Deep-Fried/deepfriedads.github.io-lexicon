@@ -57,8 +57,13 @@ function setupToggles() {
 }
 
 function setupSnackbar() {
-	const snackbar    = document.getElementById('snackbar');
-	snackbar.addEventListener('click', () => snackbar.classList.remove('is-active'));
+	/* eslint-disable func-names, prefer-arrow-callback */
+	window.addEventListener('click', function (event) {
+		if ('snackbar' === event.target.id) {
+			event.target.classList.remove('is-active');
+		}
+	});
+	/* eslint-enable func-names, prefer-arrow-callback */
 }
 
 function setupSlider($elem) {
@@ -98,7 +103,6 @@ function initTagalong() {
 
 
 function setupTagalong() {
-	// initTagalongToggle();
 	initTagalong();
 }
 
